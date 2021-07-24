@@ -1,0 +1,60 @@
+body {
+    background-color: #e0f7fa;
+}
+
+nav {
+    background-color: #006064;
+    color: #e0f7fa;
+    width: 100%;
+}
+
+.tabela {
+    width: 80%;
+    margin: 2rem auto;
+    background-color: white;
+}
+
+thead {
+    background-color: #006064;
+    color: white;
+}
+
+.botao {
+    background-color: #006064;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #00838f;
+    margin-top: 2rem;
+}
+
+footer {
+    background-color: #006064;
+    color: #e0f7fa;
+    text-align: center;
+    padding: 5px;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+footer p {
+    width: 100%;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+  }
+  
+.carousel-item img {
+      position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+      min-height: 500px;
+  }
+.card {
+    margin: 2rem auto;
+    text-align: center;
+}
+
