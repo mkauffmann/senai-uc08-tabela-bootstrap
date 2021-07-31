@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tatá Tour - Pacote Fernando de Noronha</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    
+    <link rel="stylesheet" href="./_css/estilo.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Tatá Tour</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Quem Somos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Nossos pacotes
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Pacotes aéreos</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Pacotes rodoviários</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="pacotes_promocionais.html"
+                    >Promoções</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Pesquisar"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-light" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <header class="header-noronha">
+        <!-- <img class="img-fluid" src="./_imagens/fernando_noronha.jpg" alt="Foto de praia em Fernando de Noronha"> -->
+        <div class="container-texto-header">
+            <h1 class="titulo">Três noites em Fernando de Noronha</h1>
+            <h2 class="subtitulo" >10x de R$300 ou R$2500 à vista</h2>
+        </div>
+    </header>
+    <main>
+        <div class="container-imagens">
+            <article class="noronha">
+                <h2 class="subtitulo">Destino</h2>
+                <a href="./_imagens/fernando_noronha-destino.jpg"><img class="img-fluid img-thumbnail" src="./_imagens/fernando_noronha-destino.jpg" alt="Foto de píer em Fernando de Noronha">
+                </a>
+                
+            </article>
+            <article class="noronha">
+                <h2 class="subtitulo">Locais</h2>
+                <a href="./_imagens/fernando_noronha-local.jpg">
+                    <img  class="img-fluid img-thumbnail" src="./_imagens/fernando_noronha-local.jpg" alt="Foto de praia em Fernando de Noronha">
+                </a>
+            </article>
+            <article class="noronha">
+                <h2 class="subtitulo">Compras</h2>
+                <a href="./_imagens/fernando_noronha-compras.webp">
+                    <img class="img-fluid img-thumbnail" src="./_imagens/fernando_noronha-compras.webp" alt="Foto de souvenirs de Fernando de Noronha">
+                </a>
+            </article>
+        </div>
+       
+        <article>
+            <h2 class="subtitulo">Gastronomia</h2>
+            <div class="container-carousel">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./_imagens/fernando_noronha-gastronomia-1.jpg" class="d-block w-100" alt="Foto de prato de frutos do mar">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./_imagens/fernando_noronha-gastronomia-2.jpg" class="d-block w-100" alt="Foto de Paella">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./_imagens/fernando_noronha-gastronomia-3.jpg" class="d-block w-100" alt="Foto de prato chique">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+      <p><i> Tatá Tour - 2021</i></p>
+    </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

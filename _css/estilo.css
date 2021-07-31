@@ -58,3 +58,38 @@ footer p {
     text-align: center;
 }
 
+h1.titulo {
+    font-size:10vw;
+}
+
+h2.subtitulo {
+    font-size:5vw;
+}
+
+.container-texto-header{
+    background-image: url(../_imagens/fernando_noronha.jpg);
+    height: 70vh;
+    background-size: cover;
+}
+
+.container-texto-header h1,
+.container-texto-header h2 {
+    color: #e7e42d;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-imagens {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.noronha {
+    margin: 32px 5px;
+}
+
+.container-carousel {
+    width: 80%;
+    margin: 0 auto;
+}
